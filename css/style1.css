@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: var(--font-normal);
+    box-sizing: border-box;
+
+}
+
+:root {
+    --fons: #1C1C1C;
+    --amplada: 1366px;
+    --color-principal: white;
+    --color-secundari:  rgb(213, 213, 146);
+    --font-titols: 'Merriweather', serif;
+    --font-normal: 'Poppins', sans-serif;
+
+}
+
+
+
+
+body{
+    background-color: var(--fons);
+    line-height: 1.5;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 30px;
+}
+
+
+.amplada{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    width: var(--amplada);
+    
+    
+    
+    
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+      
+    
+        
+}
+
+.active{
+    border-top: 2px solid var(--color-secundari);
+}
+nav ul li a {
+    color: var(--color-secundari);
+    border-radius: 50%;
+}
+nav ul li a:hover{
+    color: black;
+    background-image: radial-gradient(circle at 50%,  white, grey, black );
+    
+    
+    
+}
+.normal{
+    display: flex;
+    justify-content: space-around;
+    width: var(--amplada);
+    height: 400px;
+    
+    
+}
+
+
+h2{
+    font-family: var(--font-titols);
+    font-size: 1.5em;
+    color: var(--color-secundari);
+}
+
+footer{
+    
+    width: var(--amplada);
+}
+.footer{
+    margin-right: 40px;
+}
+
+.footer p{
+    color: var(--color-principal);
+}
+
+.footer span{
+    color: var(--color-secundari);
+}
+
+/* ESTILOS HABITACIONES */
+
+.imagen{
+    width: 40%;
+
+
+}
+.imagen img{
+    border-radius: 10px;
+}
+
+.div30{
+    margin-left: 70px;
+    width: 40%;
+    text-align: left;
+    
+}

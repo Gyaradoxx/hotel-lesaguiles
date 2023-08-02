@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: var(--font-normal);
+    box-sizing: border-box;
+
+}
+
+:root {
+    --fons: #1C1C1C;
+    --amplada: 1366px;
+    --color-principal: white;
+    --color-secundari:  rgb(213, 213, 146);
+    --font-titols: 'Merriweather', serif;
+    --font-normal: 'Poppins', sans-serif;
+
+}
+
+
+
+
+body{
+    background-color: var(--fons);
+    line-height: 1.5;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 30px;
+}
+
+
+.amplada{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    width: var(--amplada);
+    
+    
+    
+    
+}
+
+footer:first-of-type{
+    background: linear-gradient(  #1c1c1c ,black );
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+      
+    
+        
+}
+
+.active{
+    border-top: 2px solid var(--color-secundari);
+}
+nav ul li a {
+    color: var(--color-secundari);
+    border-radius: 50%;
+}
+nav ul li a:hover{
+    color: black;
+    background-image: radial-gradient(circle at 50%,  white, grey, black );
+    
+    
+    
+}
+
+
+.team p:first-of-type{
+    color: var(--color-principal);
+}
+.team p:nth-child(3){
+    color: var(--color-secundari);
+}
+
+.team{
+    width: 25%;
+    text-align: center;
+    
+}
+.team img{
+    width: 100%;
+    border-radius: 45%;
+}
+
+
+#team h2{
+    text-align: center;
+    color: var(--color-principal);
+    font-size: 2em;
+}
+
+.normal{
+    display: flex;
+    justify-content: space-between;
+    width: var(--amplada);
+    
+    
+}
+
+.div30{
+    color: var(--color-principal);
+    text-align: center;
+    width: 35%;
+    
+        
+
+}
+
+.sota-h1{
+    margin-top: 100px;
+}
+
+
+.imagen{
+    width: 65%;
+}
+.imagen img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: var(--font-titols);
+    color: var(--color-secundari);
+    font-size: 2.2em;
+}
+
+h2{
+    font-family: var(--font-titols);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.sota-h1 span{
+    color: var(--color-secundari);
+}
+div h1 span{
+    font-size: 2em;
+    color: var(--color-principal);
+}
+#team{
+    width: var(--amplada);
+}
+
+footer{
+    
+    width: var(--amplada);
+}
+.footer{
+    margin-right: 40px;
+}
+
+.footer p{
+    color: var(--color-principal);
+}
+
+.footer span{
+    color: var(--color-secundari);
+}
+
+/* ESTILOS HABITACIONES */
